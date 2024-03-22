@@ -6,3 +6,4 @@ q1 = np.percentile(data, 25)
 
 last_occurrences = df.groupby('Variable').tail(1)
 
+for i, data in enumerate(lists): and for index, row in last_time.iterrows()
