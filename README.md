@@ -5,6 +5,11 @@ This repository takes data from an experiment testing different anti-cancer medi
 
 For certain errors and syntax issues, ChatGPT was utilized for code throughout this analysis:
 
+To find duplicated data with the duplicated function, this code was used.
+
+    # Find duplicate rows based on column 'A' only
+    duplicate_rows = df[df.duplicated(subset=['A'])]
+    
 For creating a simplified code to create a DataFrame with statistical findings, this code was referenced:
 
     grouped_stats = df.groupby('group')['value'].agg(['mean', 'median', 'var'])
